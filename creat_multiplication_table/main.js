@@ -1,5 +1,5 @@
 let limit = 10;
-let sout = "<table border='1' width='1000' cellspacing='0' cellpadding='3'>";
+let sout = "<table border='1' width='1000' cellspacing='1' cellpadding='3'>";
 for (let numbers_1 = 1; numbers_1 <= limit; numbers_1++) {
     sout = sout + "<tr>";
     for (let numbers_2 = 1; numbers_2 <= limit; numbers_2++) {
