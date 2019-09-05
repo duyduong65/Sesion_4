@@ -2,7 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="53d85899-c3e2-49c4-962b-47340933259a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Show_Prime__Number.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/a.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Show_Prime__Number.html" beforeDir="false" afterPath="$PROJECT_DIR$/Show_Prime__Number.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Use_Do_While/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Use_Do_While/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -13,6 +17,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="JavaScript File" />
         <option value="HTML File" />
       </list>
     </option>
@@ -57,6 +62,7 @@
       <option name="presentableId" value="Default" />
       <updated>1567672727857</updated>
       <workItem from="1567672729040" duration="619000" />
+      <workItem from="1567690953330" duration="4692000" />
     </task>
     <servers />
   </component>
@@ -68,7 +74,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
