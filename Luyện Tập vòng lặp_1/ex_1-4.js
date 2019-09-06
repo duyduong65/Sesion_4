@@ -17,9 +17,14 @@ function convertTemplate() {
 }
 
 function showFibonacci() {
-    let n = 0;
-    for (let i = 0; i < 10; ) {
-        n += i;
-        document.write(n + "  ");
+    let a = 1;
+    let b = a;
+
+    for (let i = 1; i <= 20; i++) {
+        b += a;
+        document.write(b + " | ");
+        a = a + b;
+        document.write(a + " | ");
+
     }
 }
