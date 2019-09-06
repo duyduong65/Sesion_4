@@ -77,14 +77,32 @@ function PrintFizzBuzz() {
     let NumbersRandom;
     for (let i = 1; i <= 100; i++) {
         if (i % 15 == 0) {
-            NumbersRandom= "FizzBuzz";
+            NumbersRandom = "FizzBuzz";
         } else if (i % 3 == 0) {
             NumbersRandom = "Fizz";
         } else if (i % 5 == 0) {
             NumbersRandom = "Buzz";
-        }else {
+        } else {
             NumbersRandom = i;
         }
         document.write(NumbersRandom + "  ");
+    }
+}
+
+function GameEZ() {
+    let inputValue_1 = +prompt("Nhập vào giá trị muốn đoán khoảng từ");
+    let inputValue_2 = +prompt("Nhập vào giá trị muốn đoán khoảng đến");
+    let inputValue_3;
+    let n = Math.floor(Math.random() * (inputValue_2 - inputValue_1) + inputValue_1);
+    for (let i = 0; i < 3; i++) {
+        inputValue_3 = +prompt("Nhập vào giá trị muốn đoán");
+
+        if (inputValue_3 == n) {
+            alert("Done");
+        } else if (inputValue_3 > n){
+            alert("Số này lớn hơn giá trị");
+        } else {
+            alert("số này nhỏ hơn giá trị");
+        }
     }
 }
