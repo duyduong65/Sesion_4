@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="21fec4f9-d907-4d73-9e92-cd155d3879dc" name="Default Changelist" comment="" />
+    <list default="true" id="21fec4f9-d907-4d73-9e92-cd155d3879dc" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,6 +57,7 @@
       <option name="presentableId" value="Default" />
       <updated>1567644790830</updated>
       <workItem from="1567644794419" duration="5400000" />
+      <workItem from="1567730777358" duration="991000" />
     </task>
     <servers />
   </component>
@@ -66,7 +69,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
