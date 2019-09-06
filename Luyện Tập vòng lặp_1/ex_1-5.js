@@ -74,16 +74,17 @@ function findTotal() {
 }
 
 function PrintFizzBuzz() {
-
-    for (let i = 1; i <= 50; i++) {
+    let NumbersRandom;
+    for (let i = 1; i <= 100; i++) {
         if (i % 15 == 0) {
-            i= "FizzBuzz";
+            NumbersRandom= "FizzBuzz";
         } else if (i % 3 == 0) {
-            i = "Fizz";
+            NumbersRandom = "Fizz";
         } else if (i % 5 == 0) {
-            i = "Buzz";
-
+            NumbersRandom = "Buzz";
+        }else {
+            NumbersRandom = i;
         }
-        document.write(i + "  ");
+        document.write(NumbersRandom + "  ");
     }
 }
