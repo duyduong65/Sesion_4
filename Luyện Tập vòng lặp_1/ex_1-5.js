@@ -34,7 +34,7 @@ function totalFibonacci() {
     let result = 1;
     let total = 0;
 
-    for (let i = 1; i <= 18; i++) {
+    for (let i = 1; i <= 20; i++) {
         result = numbers_1 + numbers_2;
         numbers_1 = numbers_2;
         numbers_2 = result;
@@ -47,7 +47,7 @@ function findNumber() {
     let numbers_1 = 1;
     let numbers_2 = 0;
     let result = 1;
-    for (let i = 1; i <= 18; i++) {
+    for (let i = 1; i <= 20; i++) {
         result = numbers_1 + numbers_2;
         numbers_1 = numbers_2;
         numbers_2 = result;
@@ -58,3 +58,17 @@ function findNumber() {
     }
 }
 
+function findTotal() {
+    let countNumbers = 0;
+    let dem = 1;
+    let total = 0;
+
+    while (countNumbers < 10) {
+        dem++;
+        if (dem % 7 == 0) {
+            total += dem;
+            countNumbers++;
+        }
+    }
+    document.write(total);
+}
