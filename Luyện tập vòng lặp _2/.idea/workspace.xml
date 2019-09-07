@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="51eaf56d-6e7e-4d04-a5f9-e26b39c5368a" name="Default Changelist" comment="" />
+    <list default="true" id="51eaf56d-6e7e-4d04-a5f9-e26b39c5368a" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Example_Full.html" beforeDir="false" afterPath="$PROJECT_DIR$/Example_Full.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Example_full.js" beforeDir="false" afterPath="$PROJECT_DIR$/Example_full.js" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,8 +53,16 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1567863055138</updated>
-      <workItem from="1567863058491" duration="285000" />
+      <workItem from="1567863058491" duration="1105000" />
     </task>
+    <task id="LOCAL-00001" summary="final ex1">
+      <created>1567863587206</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1567863587206</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -66,5 +78,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="final ex1" />
+    <option name="LAST_COMMIT_MESSAGE" value="final ex1" />
   </component>
 </project>

@@ -9,3 +9,12 @@ function printFinonaci() {
         document.write(result + "  ");
     }
 }
+
+function tinhGiaiThua() {
+    let int = prompt("Nhập vào số nguyên dương cần tính");
+    let ketqua = 1;
+    for (let i = 1; i <= int; i++) {
+        ketqua = ketqua * i;
+    }
+    document.write(int + "! = " + ketqua);
+}
