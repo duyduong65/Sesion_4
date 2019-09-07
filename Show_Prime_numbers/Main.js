@@ -1,28 +1,35 @@
 let n = prompt("nhập vào số n: ");
 n = Number(n);
-let cout = 0;
-let i = 2;
-while (cout < n) {
-    if (CheckPrimeNumber()) {
-        document.write(i + " ");
-        cout++
+
+function CheckPrimeNumbers(val) {
+
+    if (val < 2) {
+        return false;
+    } else {
+        let squareRoot = Math.sqrt(val);
+        for (let j = 2; j <= squareRoot; j++) {
+            if ((val % j) === 0) {
+                return false;
+                break;
+            }
+        }
+        return true;
     }
-    i++;
 }
 
-function CheckPrimeNumber() {
-let m;
-    let squareRoot = Math.sqrt(m);
-    if (m < 2) {
-        return false;
+let cout = 0;
+let outNumbers = 2
+while (cout < n) {
+    if (CheckPrimeNumbers(outNumbers)) {
+        cout++;
+        document.write(outNumbers + "  ")
     }
-    for (let i = 2; i <= squareRoot; i++) {
-        if (m % i == 0) {
-            return false;
-        }
-    }
-    return true;
+    outNumbers++;
 }
+
+
+
+
 
 
 
