@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="51eaf56d-6e7e-4d04-a5f9-e26b39c5368a" name="Default Changelist" comment="">
+    <list default="true" id="51eaf56d-6e7e-4d04-a5f9-e26b39c5368a" name="Default Changelist" comment="final ex2">
+      <change beforePath="$PROJECT_DIR$/../Luyện Tập vòng lặp_1/Example.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Luyện Tập vòng lặp_1/Example.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Example_Full.html" beforeDir="false" afterPath="$PROJECT_DIR$/Example_Full.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Example_full.js" beforeDir="false" afterPath="$PROJECT_DIR$/Main_full.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Main_full.js" beforeDir="false" afterPath="$PROJECT_DIR$/Main_full.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -61,6 +62,9 @@
       <updated>1567863055138</updated>
       <workItem from="1567863058491" duration="3624000" />
       <workItem from="1567875699494" duration="7178000" />
+      <workItem from="1568002135232" duration="155000" />
+      <workItem from="1568012879724" duration="2264000" />
+      <workItem from="1568085998606" duration="1339000" />
     </task>
     <task id="LOCAL-00001" summary="final ex1">
       <created>1567863587206</created>

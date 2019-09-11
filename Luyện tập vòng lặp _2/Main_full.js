@@ -36,17 +36,24 @@ function PrintTriangular() {
         document.write("<br>");
     }
     document.write("<br>");
+}
 
 
-    for (let i = 0; i < n; i++) {
-        for (let j = n; j > i; j--) {
-            document.write("_ ");
-            for (let k = j-i; k <= 1; k++) {
+function tamGiacNguoc() {
+    let n = 5;
+    let q = 0;
+    while (n < 0) {
+        for (let i = 0; i < n; i++) {
+            document.write(" ");
+            for (let j = 0; j <= q; j++) {
                 document.write("*");
-            }
-        }
-        document.write("<br>")
+                n--;
+                q+=2;
+                document.write("<br>");
 
+            }
+
+        }
     }
 }
 
