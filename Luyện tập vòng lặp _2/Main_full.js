@@ -40,18 +40,9 @@ function PrintTriangular() {
 
 
 function tamGiacNguoc() {
-    let n = 5;
-    let q = 0;
-    while (n < 0) {
-        for (let i = 0; i < n; i++) {
-            document.write(" ");
-            for (let j = 0; j <= q; j++) {
-                document.write("*");
-                n--;
-                q+=2;
-                document.write("<br>");
+    for (let i = 0; i < 5; i++) {
+        for (let j = 4; j > i; j--) {
 
-            }
 
         }
     }
